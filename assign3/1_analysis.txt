@@ -1,0 +1,124 @@
+Output of solution for question 1 :
+Roots : 
+For func a : 2.69065
+For func b : -2.64561, -0.88533, -0.470064
+For func c : 1.49819
+
+Analysis : 
+1. In general newton's method took less number of iterations to converge and nothing can be said about accuracy.
+2. Secant's method "probably" takes more iterations beacuse we are using an estimation of derivative 
+   instead of the derivative.
+3. To find the root -0.470064 in func b, we needed more fine tuning.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Calling the methods for function a
+
+Iterations, x, f(x) : 1 3.25 8.20312
+Iterations, x, f(x) : 2 2.81104 1.40875
+Iterations, x, f(x) : 3 2.69799 0.0807684
+Iterations, x, f(x) : 4 2.69068 0.000325456
+Iterations, x, f(x) : 5 2.69065 5.35762e-09
+With newton method function converged 
+within tolerance of 0.000001 in iterations, x, fx : 5 2.69065 5.35762e-09
+
+
+Iterations, x1, x2, f(x1), f(x2) : 1 2.55556 2 -1.37174 -5
+Iterations, x1, x2, f(x1), f(x2) : 2 2.7656 2.55556 0.855671 -1.37174
+Iterations, x1, x2, f(x1), f(x2) : 3 2.68491 2.7656 -0.0626861 0.855671
+Iterations, x1, x2, f(x1), f(x2) : 4 2.69042 2.68491 -0.00254275 -0.0626861
+Iterations, x1, x2, f(x1), f(x2) : 5 2.69065 2.69042 8.10839e-06 -0.00254275
+Iterations, x1, x2, f(x1), f(x2) : 6 2.69065 2.69065 -1.04314e-09 8.10839e-06
+With secant method function converged 
+within tolerance of 0.000001 in iterations, x, fx : 6 2.69065 -1.04314e-09
+
+
+
+Calling the methods for function b
+
+Iterations, x, f(x) : 1 -2.72899 -0.347259
+Iterations, x, f(x) : 2 -2.65194 -0.0243952
+Iterations, x, f(x) : 3 -2.64565 -0.000156132
+Iterations, x, f(x) : 4 -2.64561 -6.5412e-09
+With newton method function converged 
+within tolerance of 0.000001 in iterations, x, fx : 4 -2.64561 -6.5412e-09
+
+
+Iterations, x1, x2, f(x1), f(x2) : 1 -2.60055 -3 0.164654 -1.896
+Iterations, x1, x2, f(x1), f(x2) : 2 -2.63247 -2.60055 0.0496453 0.164654
+Iterations, x1, x2, f(x1), f(x2) : 3 -2.64624 -2.63247 -0.00244168 0.0496453
+Iterations, x1, x2, f(x1), f(x2) : 4 -2.6456 -2.64624 3.32751e-05 -0.00244168
+Iterations, x1, x2, f(x1), f(x2) : 5 -2.64561 -2.6456 2.17799e-08 3.32751e-05
+With secant method function converged 
+within tolerance of 0.000001 in iterations, x, fx : 5 -2.64561 2.17799e-08
+
+
+Iterations, x, f(x) : 1 -0.9 0.01101
+Iterations, x, f(x) : 2 -0.885698 0.000269057
+Iterations, x, f(x) : 3 -0.88533 1.8163e-07
+With newton method function converged 
+within tolerance of 0.000001 in iterations, x, fx : 3 -0.88533 1.8163e-07
+
+
+Iterations, x1, x2, f(x1), f(x2) : 1 -0.854493 -1 -0.0212331 0.1
+Iterations, x1, x2, f(x1), f(x2) : 2 -0.879977 -0.854493 -0.00387398 -0.0212331
+Iterations, x1, x2, f(x1), f(x2) : 3 -0.885664 -0.879977 0.000244806 -0.00387398
+Iterations, x1, x2, f(x1), f(x2) : 4 -0.885326 -0.885664 -2.44117e-06 0.000244806
+Iterations, x1, x2, f(x1), f(x2) : 5 -0.88533 -0.885326 -1.50209e-09 -2.44117e-06
+With secant method function converged 
+within tolerance of 0.000001 in iterations, x, fx : 5 -0.88533 -1.50209e-09
+
+
+Iterations, x, f(x) : 1 -0.467044 0.00275213
+Iterations, x, f(x) : 2 -0.470038 2.32841e-05
+Iterations, x, f(x) : 3 -0.470064 1.72048e-09
+With newton method function converged 
+within tolerance of 0.000001 in iterations, x, fx : 3 -0.470064 1.72048e-09
+
+
+Iterations, x1, x2, f(x1), f(x2) : 1 -0.475522 -0.5 -0.00485357 -0.02475
+Iterations, x1, x2, f(x1), f(x2) : 2 -0.46955 -0.475522 0.000464726 -0.00485357
+Iterations, x1, x2, f(x1), f(x2) : 3 -0.470072 -0.46955 -7.35279e-06 0.000464726
+Iterations, x1, x2, f(x1), f(x2) : 4 -0.470064 -0.470072 -1.08174e-08 -7.35279e-06
+With secant method function converged 
+within tolerance of 0.000001 in iterations, x, fx : 4 -0.470064 -1.08174e-08
+
+
+
+Calling the methods for function c
+
+Iterations, x, f(x) : 1 3 188
+Iterations, x, f(x) : 2 2.43713 60.2692
+Iterations, x, f(x) : 3 2.00818 18.5034
+Iterations, x, f(x) : 4 1.71008 5.01128
+Iterations, x, f(x) : 5 1.54864 0.937607
+Iterations, x, f(x) : 6 1.50176 0.0618205
+Iterations, x, f(x) : 7 1.49821 0.000331566
+Iterations, x, f(x) : 8 1.49819 9.69657e-09
+With newton method function converged 
+within tolerance of 0.000001 in iterations, x, fx : 8 1.49819 9.69657e-09
+
+
+Iterations, x1, x2, f(x1), f(x2) : 1 1.18182 1 -3.3523 -4
+Iterations, x1, x2, f(x1), f(x2) : 2 2.12286 1.18182 26.5409 -3.3523
+Iterations, x1, x2, f(x1), f(x2) : 3 1.28735 2.12286 -2.62827 26.5409
+Iterations, x1, x2, f(x1), f(x2) : 4 1.36263 1.28735 -1.89728 -2.62827
+Iterations, x1, x2, f(x1), f(x2) : 5 1.55803 1.36263 1.12795 -1.89728
+Iterations, x1, x2, f(x1), f(x2) : 6 1.48518 1.55803 -0.219689 1.12795
+Iterations, x1, x2, f(x1), f(x2) : 7 1.49705 1.48518 -0.0195614 -0.219689
+Iterations, x1, x2, f(x1), f(x2) : 8 1.49821 1.49705 0.000391824 -0.0195614
+Iterations, x1, x2, f(x1), f(x2) : 9 1.49819 1.49821 -6.77856e-07 0.000391824
+With secant method function converged 
+within tolerance of 0.000001 in iterations, x, fx : 9 1.49819 -6.77856e-07
+

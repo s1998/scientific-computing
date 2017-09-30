@@ -1,0 +1,29 @@
+Set f(x) = 0.435 * (e^x - 1) - (1.564 - e^x)*x.
+Any root that satisifies original equation satisifes this equation too.
+Find the root in [0.5, 1.5].
+Choose the root that lies near 0.1. That is the root of original equation.
+
+
+
+Calling the methods for function f
+
+Iterations, x, f(x) : 0 0.15 0.010073
+Iterations, x, f(x) : 1 0.113702 0.00194572
+Iterations, x, f(x) : 2 0.102336 0.000183475
+Iterations, x, f(x) : 3 0.101016 2.44785e-06
+Iterations, x, f(x) : 4 0.100998 4.66465e-10
+With newton method function converged 
+within tolerance of 0.000000001 in iterations, x, fx : 4 0.100998 4.66465e-10
+
+
+Iterations, x1, x2, f(x1), f(x2) : 0 0.15 0.05 0.010073 -0.00333354
+Iterations, x1, x2, f(x1), f(x2) : 1 0.0748651 0.15 -0.00258767 0.010073
+Iterations, x1, x2, f(x1), f(x2) : 2 0.0902217 0.0748651 -0.00129528 -0.00258767
+Iterations, x1, x2, f(x1), f(x2) : 3 0.105613 0.0902217 0.000653956 -0.00129528
+Iterations, x1, x2, f(x1), f(x2) : 4 0.100449 0.105613 -7.38486e-05 0.000653956
+Iterations, x1, x2, f(x1), f(x2) : 5 0.100973 0.100449 -3.4163e-06 -7.38486e-05
+Iterations, x1, x2, f(x1), f(x2) : 6 0.100998 0.100973 1.95782e-08 -3.4163e-06
+Iterations, x1, x2, f(x1), f(x2) : 7 0.100998 0.100998 -5.13279e-12 1.95782e-08
+With secant method function converged 
+within tolerance of 0.000000001 in iterations, x, fx : 7 0.100998 -5.13279e-12
+

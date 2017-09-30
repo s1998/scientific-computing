@@ -1,0 +1,7 @@
+1.cpp -> solution of problem 1 using newton's method as mentioned in question 2.
+
+3.cpp -> used modified newton's method to find the root.
+
+
+
+

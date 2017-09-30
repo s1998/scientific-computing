@@ -1,0 +1,157 @@
+Found the negative root.
+Found the first four positive roots using both methods.
+Found the 25th positive root.
+
+
+Calling the methods for function f
+
+
+Find the negative root : 
+
+Iterations, x, f(x) : 0 -10 4.5968e-05
+Iterations, x, f(x) : 1 12.3601 -54.0257
+Iterations, x, f(x) : 2 12.5036 7.50249
+Iterations, x, f(x) : 3 12.4876 0.0479449
+Iterations, x, f(x) : 4 12.4875 2.26127e-06
+Iterations, x, f(x) : 5 12.4875 -6.4837e-14
+With newton method function converged 
+in iterations, x, fx : 5 12.4875 -6.4837e-14
+
+
+Iterations, x1, x2, f(x1), f(x2) : 0 -10 0 4.5968e-05 -1e-05
+Iterations, x1, x2, f(x1), f(x2) : 1 -1.78673 -10 1.0495 4.5968
+Iterations, x1, x2, f(x1), f(x2) : 2 0.643224 -1.78673 0.90908 1.0495
+Iterations, x1, x2, f(x1), f(x2) : 3 16.375 0.643224 -257.701 0.90908
+Iterations, x1, x2, f(x1), f(x2) : 4 0.698526 16.375 1.16999 -257.701
+Iterations, x1, x2, f(x1), f(x2) : 5 0.769377 0.698526 1.4839 1.16999
+Iterations, x1, x2, f(x1), f(x2) : 6 0.434448 0.769377 -0.0701908 1.4839
+Iterations, x1, x2, f(x1), f(x2) : 7 0.449575 0.434448 -0.00453084 -0.0701908
+Iterations, x1, x2, f(x1), f(x2) : 8 0.450619 0.449575 5.12558e-05 -0.00453084
+Iterations, x1, x2, f(x1), f(x2) : 9 0.450607 0.450619 -3.54498e-08 5.12558e-05
+Iterations, x1, x2, f(x1), f(x2) : 10 0.450607 0.450607 -2.7664e-13 -3.54498e-08
+With secant method function converged 
+in iterations, x, fx : 10 0.450607 -2.7664e-13
+
+
+
+Find the first positive root : 
+
+Iterations, x, f(x) : 0 0 -1e-05
+Iterations, x, f(x) : 1 -2.5 1.98138
+Iterations, x, f(x) : 2 -1.42631 1.23937
+Iterations, x, f(x) : 3 -2.90096 2.5408
+Iterations, x, f(x) : 4 0.286349 -0.618494
+Iterations, x, f(x) : 5 0.491854 0.185749
+Iterations, x, f(x) : 6 0.451506 0.0039479
+Iterations, x, f(x) : 7 0.450608 2.3567e-06
+Iterations, x, f(x) : 8 0.450607 8.1804e-13
+With newton method function converged 
+in iterations, x, fx : 8 0.450607 8.1804e-13
+
+
+Iterations, x1, x2, f(x1), f(x2) : 0 0 1 -1e-05 2.18497e-05
+Iterations, x1, x2, f(x1), f(x2) : 1 0.313975 0 -0.531402 -1
+Iterations, x1, x2, f(x1), f(x2) : 2 0.670029 0.313975 1.03674 -0.531402
+Iterations, x1, x2, f(x1), f(x2) : 3 0.434632 0.670029 -0.0694015 1.03674
+Iterations, x1, x2, f(x1), f(x2) : 4 0.449401 0.434632 -0.00529441 -0.0694015
+Iterations, x1, x2, f(x1), f(x2) : 5 0.450621 0.449401 5.92179e-05 -0.00529441
+Iterations, x1, x2, f(x1), f(x2) : 6 0.450607 0.450621 -4.78867e-08 5.92179e-05
+Iterations, x1, x2, f(x1), f(x2) : 7 0.450607 0.450607 -4.31266e-13 -4.78867e-08
+With secant method function converged 
+in iterations, x, fx : 7 0.450607 -4.31266e-13
+
+
+
+Find the second positive root : 
+
+Iterations, x, f(x) : 0 1 2.18497e-05
+Iterations, x, f(x) : 1 -0.370042 -0.21395
+Iterations, x, f(x) : 2 -0.43537 0.00429881
+Iterations, x, f(x) : 3 -0.4341 5.91271e-07
+Iterations, x, f(x) : 4 -0.4341 1.95122e-14
+With newton method function converged 
+in iterations, x, fx : 4 -0.4341 1.95122e-14
+
+
+Iterations, x1, x2, f(x1), f(x2) : 0 1 2 2.18497e-05 -6.16101e-06
+Iterations, x1, x2, f(x1), f(x2) : 1 1.78005 1 -0.143949 2.18497
+Iterations, x1, x2, f(x1), f(x2) : 2 1.73183 1.78005 0.0543601 -0.143949
+Iterations, x1, x2, f(x1), f(x2) : 3 1.74505 1.73183 -0.00234637 0.0543601
+Iterations, x1, x2, f(x1), f(x2) : 4 1.7445 1.74505 -3.2735e-05 -0.00234637
+Iterations, x1, x2, f(x1), f(x2) : 5 1.7445 1.7445 2.08108e-08 -3.2735e-05
+Iterations, x1, x2, f(x1), f(x2) : 6 1.7445 1.7445 -1.84075e-13 2.08108e-08
+With secant method function converged 
+in iterations, x, fx : 6 1.7445 -1.84075e-13
+
+
+
+Find the third positive root : 
+
+Iterations, x, f(x) : 0 2.1 -5.14132e-06
+Iterations, x, f(x) : 1 2.33909 0.635245
+Iterations, x, f(x) : 2 2.25136 0.0720359
+Iterations, x, f(x) : 3 2.23837 0.00178196
+Iterations, x, f(x) : 4 2.23803 1.22175e-06
+Iterations, x, f(x) : 5 2.23803 4.62297e-13
+With newton method function converged 
+in iterations, x, fx : 5 2.23803 4.62297e-13
+
+
+Iterations, x1, x2, f(x1), f(x2) : 0 2.1 3 -5.14132e-06 5.6227e-05
+Iterations, x1, x2, f(x1), f(x2) : 1 2.1754 2.1 -0.286693 -0.514132
+Iterations, x1, x2, f(x1), f(x2) : 2 2.27044 2.1754 0.181655 -0.286693
+Iterations, x1, x2, f(x1), f(x2) : 3 2.23358 2.27044 -0.02321 0.181655
+Iterations, x1, x2, f(x1), f(x2) : 4 2.23776 2.23358 -0.00144069 -0.02321
+Iterations, x1, x2, f(x1), f(x2) : 5 2.23803 2.23776 1.31853e-05 -0.00144069
+Iterations, x1, x2, f(x1), f(x2) : 6 2.23803 2.23803 -7.34101e-09 1.31853e-05
+Iterations, x1, x2, f(x1), f(x2) : 7 2.23803 2.23803 -3.77476e-14 -7.34101e-09
+With secant method function converged 
+in iterations, x, fx : 7 2.23803 -3.77476e-14
+
+
+
+Find the fourth positive root : 
+
+Iterations, x, f(x) : 0 3 5.6227e-05
+Iterations, x, f(x) : 1 0.0643206 -1.00105
+Iterations, x, f(x) : 2 2.74705 4.24993
+Iterations, x, f(x) : 3 2.2291 -0.0461434
+Iterations, x, f(x) : 4 2.2382 0.000891896
+Iterations, x, f(x) : 5 2.23803 3.0649e-07
+Iterations, x, f(x) : 6 2.23803 8.43769e-15
+With newton method function converged 
+in iterations, x, fx : 6 2.23803 8.43769e-15
+
+
+Iterations, x1, x2, f(x1), f(x2) : 0 3 4 5.6227e-05 -2.11981e-05
+Iterations, x1, x2, f(x1), f(x2) : 1 3.72621 3 -0.200659 5.6227
+Iterations, x1, x2, f(x1), f(x2) : 2 3.70119 3.72621 0.0858343 -0.200659
+Iterations, x1, x2, f(x1), f(x2) : 3 3.70869 3.70119 -0.00116358 0.0858343
+Iterations, x1, x2, f(x1), f(x2) : 4 3.70859 3.70869 -6.27485e-06 -0.00116358
+Iterations, x1, x2, f(x1), f(x2) : 5 3.70858 3.70859 4.7282e-10 -6.27485e-06
+With secant method function converged 
+in iterations, x, fx : 5 3.70858 4.7282e-10
+
+
+
+Find the 25th positive root : 
+
+Iterations, x, f(x) : 0 24.2 -0.128401
+Iterations, x, f(x) : 1 24.7178 12593.1
+Iterations, x, f(x) : 2 24.4781 -1044.58
+Iterations, x, f(x) : 3 24.4969 9.12863
+Iterations, x, f(x) : 4 24.4967 0.000589016
+Iterations, x, f(x) : 5 24.4967 4.28209e-11
+With newton method function converged 
+in iterations, x, fx : 5 24.4967 4.28209e-11
+
+
+Iterations, x1, x2, f(x1), f(x2) : 0 24.2 25 -0.128401 0.220316
+Iterations, x1, x2, f(x1), f(x2) : 1 24.4946 24.2 -121.186 -12840.1
+Iterations, x1, x2, f(x1), f(x2) : 2 24.4974 24.4946 37.5323 -121.186
+Iterations, x1, x2, f(x1), f(x2) : 3 24.4967 24.4974 -0.0324233 37.5323
+Iterations, x1, x2, f(x1), f(x2) : 4 24.4967 24.4967 -8.58778e-06 -0.0324233
+Iterations, x1, x2, f(x1), f(x2) : 5 24.4967 24.4967 -2.13103e-10 -8.58778e-06
+With secant method function converged 
+in iterations, x, fx : 5 24.4967 -2.13103e-10
+

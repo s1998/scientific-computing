@@ -1,0 +1,25 @@
+We defined function f(x) as f(x) = f(x) / 10^7
+The roots pf the equation wont change.
+And set tolerance to 10^-9.
+So the final error is inside 10^-16.
+
+Calling the methods for function f
+
+Iterations, x, f(x) : 0 1.4 2.0763e-06
+Iterations, x, f(x) : 1 1.5499 -1.97145e-06
+Iterations, x, f(x) : 2 1.50546 -2.72876e-07
+Iterations, x, f(x) : 3 1.49708 -8.126e-09
+Iterations, x, f(x) : 4 1.49681 -7.88907e-12
+With newton method function converged 
+within tolerance of 0.000000001 in iterations, x, fx : 4 1.49681 -7.88907e-12
+
+
+Iterations, x1, x2, f(x1), f(x2) : 0 1.4 1.6 2.0763e-06 -4.60436e-06
+Iterations, x1, x2, f(x1), f(x2) : 1 1.46216 1.4 9.33016e-07 2.0763e-06
+Iterations, x1, x2, f(x1), f(x2) : 2 1.51289 1.46216 -5.21208e-07 9.33016e-07
+Iterations, x1, x2, f(x1), f(x2) : 3 1.4947 1.51289 6.38725e-08 -5.21208e-07
+Iterations, x1, x2, f(x1), f(x2) : 4 1.49669 1.4947 3.69278e-09 6.38725e-08
+Iterations, x1, x2, f(x1), f(x2) : 5 1.49681 1.49669 -2.86098e-11 3.69278e-09
+With secant method function converged 
+within tolerance of 0.000000001 in iterations, x, fx : 5 1.49681 -2.86098e-11
+
