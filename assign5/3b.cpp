@@ -37,49 +37,39 @@ double newton_interpolation_predictor(
 	return ans;
 }
 
-inline double f1(double x) { return atan(x); }
+inline double func(double x)
+{
+	return 1 / (1 + x*x);
+}
 
 int main()
 {
-/*
-Part 1 of q1
-*/
-	vector<vector<double> > dp_table_1 = newton_interpolation_table_maker(
-											f1, 0, 6, 11);
-	cout<<"\n Find the Newton’s forward interpolating polynomial of degree 10 that interpolates the";
-	cout<<"\n function atan at 11 equally spaced points in the interval [0,6]. Print the coefficients";
-	cout<<"\n of the polynomial.\n";
-	
-	for(int i=0; i<11; i++)
-		cout<<"\nCoefficients of x^"<<i<<" are : "<<dp_table_1[0][i];
-	cout<<"\n\n";
-
-
-
-
-
-/*
-Part 2 of q1
-*/
-	cout<<"Compute and print the difference between the polynomial and the";
-	cout<<"	function at 33 equally spaced points in the interval ";
-	cout<<"[0, 8]. What conclusion can be drawn?";
-	vector<vector<double> > dp_table_2 = newton_interpolation_table_maker(
-											f1, 0, 8, 33);
-	double diff = (double)8 / 32;
-	for(int i=0; i<33; i++)
+	vector<vector<double> > dp_table = newton_interpolation_table_maker(
+											func, -5, 5, 41);
+	double diff = (double)5 / 100;
+	for(int i=0; i<100; i++)
 	{	
 		double x =  0 + diff * i;
-		double actual = f1(x);
-		double predicted = newton_interpolation_predictor(0, 8, 33, dp_table_2, x);
+		double actual = func(x);
+		double predicted = newton_interpolation_predictor(-5, 5, 41, dp_table, x);
 		cout<<"\nDifference in actual and predicted is (x, actual, predicted, difference): \n";
 		std::cout.precision(8);
 		std::cout.setf( std::ios::fixed, std:: ios::floatfield );
 		cout<<x<<" "<<actual<<" "<<predicted<<" "<<(predicted - actual);
 	}
+
+	cout<<"\n\nBecause of its oscillation property (low at -5, high at 0 and again low at 5)\n";
+	cout<<" the divided difference polynomial is not \n";
+    cout<<"suitable to interpolate the given data. The common \n";
+    cout<<"cubic spline interpolation leads to a smoother interpolation.";
 	cout<<"\n\n";
 	
-	cout<<"Conclusion : The result is very good and with 33 points and we were able to get error < 1e^-5\n\n";
 	return 0;
 }
+
+
+
+
+
+
 
