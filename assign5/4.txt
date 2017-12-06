@@ -1,0 +1,9 @@
+
+a)
+	Method used (Cubic spline interpolation because of the spike present) 
+	Distance and speed at t = 10 : 769.067 73.3982
+
+b)
+	yes, all the time.
+
+c)  Maximum predicted is approximately 91 miles /hour
